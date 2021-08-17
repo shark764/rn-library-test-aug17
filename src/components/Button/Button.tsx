@@ -42,7 +42,7 @@ Props) => {
         />
       )} */}
       {/* {content && <span>{content}</span>} */}
-      <ButtonText>{title}</ButtonText>
+      <ButtonText>{title.toUpperCase()}</ButtonText>
     </TouchableButton>
   );
 };
