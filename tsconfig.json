@@ -3,15 +3,36 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
+    "importHelpers": true,
     "jsx": "react",
     "lib": [
-      "es6"
+      "es6",
+      "esnext"
     ],
     "moduleResolution": "node",
-    "noEmit": true,
+    "removeComments": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "rn-library-test-aug17": [
+        "./src/index"
+      ]
+    },
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "importsNotUsedAsValues": "error",
+    "module": "esnext",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
   },
   "exclude": [
     "node_modules",
