@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "rn-library-test-aug17",
+    "slug": "rn-library-test-aug17",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "rn-library-test-aug17"
+}
