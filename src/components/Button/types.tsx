@@ -21,4 +21,5 @@ export type Props = ButtonProps & {
   iconPosition?: Position;
   iconName?: string;
   children?: React.ReactNode;
+  color?: string;
 };
