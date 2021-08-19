@@ -1,6 +1,4 @@
-import { Button } from './components';
-
-export { Button };
+export * from './components';
 
 export default {
   multiply(a: number, b: number) {
@@ -9,5 +7,4 @@ export default {
   divide(a: number, b: number) {
     return Promise.resolve(a / b);
   },
-  Button,
 };
